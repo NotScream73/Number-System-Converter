@@ -74,7 +74,7 @@ namespace NumberSystemConverter
                 int check = 0;
                 for (int j =0; j < arr.Length; j++)
                 {
-                    if (arr[j] == textBox1.Text[i])
+                    if (arr[j] == textBox1.Text[i] || (char)(j + 87) == textBox1.Text[i])
                     {
                         check++;
                         break;
